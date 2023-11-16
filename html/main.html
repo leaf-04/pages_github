@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_board</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <script defer src="../js/function.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="Navbar" class="nav">
+        <div class="nav-title">
+            <a href="#">Baek SangUk</a>
+        </div>
+        <ul class="nav-items">
+            <li class="nav-item"><a id="href-1" href="#">Home</a></div>
+            <li class="nav-item"><a id="href-2" href="#Instroduction">Instro</a></div>
+            <li class="nav-item"><a id="href-3" href="#Project">Project</a></div>
+            <li class="nav-item"><a id="href-4" href="#Contact"> Contact</a></div>
+        </ul>
+    </nav>
+    <!-- Home -->
+    <section id="Home" class="home">
+        <div class="home-main">
+            <h1 class="home-writing">Welcome To My Blog</h1>
+        </div>
+    </section>
+    <!-- Instro -->
+    <section id="Instroduction" class="section">
+        <div class="instr-main">
+            <h1 class="instr-title">Instroduction</h1>
+            <p class="instr-sub">Hi, I'm a newbie who want to learn various coding.<br>There are many things lacking, but please regard me as favorable!!</p>
+        </div>
+        <div class="instr-table">
+            <div class="instr-table-config">
+                <div class="instr-table-icon">
+                    <img src="../images/machin-learning.png" width="160" height="160">
+                </div>
+                <h2 class="instr-table-title">Machin-Learning</h2>
+                <div class="instr-table-source">Python</div>
+            </div>
+            <div class="instr-table-config">
+                <div class="instr-table-icon">
+                    <img src="../images/deep-learning.png" width="170" height="170">
+                </div>
+                <h2 class="instr-table-title">Deep-Learning</h2>
+                <div class="instr-table-source">Python</div>
+            </div>
+            <div class="instr-table-config">
+                <div class="instr-table-icon">
+                    <img src="../images/front-end.png" width="160" height="160">
+                </div>
+                <h2 class="instr-table-title-3">Front-End</h2>
+                <div class="instr-table-source">HTML<br>JS<br>CSS</div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Project -->
+    <section id="Project" class="section">
+        <div class="proj-main">
+            <h2 class="proj-title">Project</h2>
+            <p class="proj-sub">This is my projects!</p>
+        </div>
+        <div class="proj-table">
+            <div class="proj-table-config" onclick="window.open('https://colab.research.google.com/drive/14zGtZAs1WcRgscJGaqlgewvKjVfELypj?usp=sharing')">
+                <img class="proj-icon-1" src="../images/colab.png">
+                <div class="hovering">
+                    <h2 class="hover-title">Machin-Learning</h2>
+                    <hr class="hover-hr">
+                    <p class="hover-sub">CO2 Emissions Linear Regression Analysis</p>
+                </div>
+            </div>
+            <div class="proj-table-config" onclick="window.open('http://naver.me/5YaoQV5Z')">
+                <img class="proj-icon-2" src="../images/mybox.png">
+                <div class="hovering">
+                    <h2 class="hover-title">Server</h2>
+                    <hr class="hover-hr">
+                    <p class="hover-sub">Using the Command Prompt to Open a Server</p>
+                </div>
+            </div>
+            <div class="proj-table-config" onclick="window.open('#')">
+                <img class="proj-icon-3" src="../images/web.png">
+                <div class="hovering">
+                    <h2 class="hover-title">Homepage</h2>
+                    <hr class="hover-hr">
+                    <p class="hover-sub">Create a homepage using <br>CSS and JS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="Contact" class="section">
+        <div class="cont-main">
+            <h2 class="cont-title">Contect Me</h2>
+            <p class="cont-sub">If you want to contact me, click the icon!</p>
+            <div class="cont-link-1">
+                 <p class="cont-sub-1">
+                    <a href="https://www.instagram.com/sanguk.04/" target="_blank"><img class="cont-icon-1" src="../images/instar.png"></a> sanguk.04
+                </p>
+            </div>
+            <div class="cont-link-2">
+                <p id="copy-button" class="cont-sub-2">
+                    <img id="copy-mail" class="cont-icon-2" src="../images/e-mail.png">
+                    leaf_1003@naver.com
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
